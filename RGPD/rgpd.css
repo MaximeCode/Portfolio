@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Polices */
+
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@300;400;800&display=swap");
+
+/* Politique de confidentialité */
+
+body {
+  padding: 30px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 50px 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 10px 0 10px 30px;
+}
+
+span {
+  margin-top: 50px;
+  width: 100%;
+  font-size: 1em;
+}
+
+span h1 {
+  font-family: "Kalam", cursive;
+  font-style: italic;
+  font-weight: 700;
+  background-color: #4295c9;
+  color: #fff;
+}
+
+p {
+  line-height: 25px;
+}
+
+.retour {
+  position: absolute;
+  top: 3%;
+  font-size: 2em;
+}
+
+.btn-retour {
+  margin-left: 20px;
+}
+
+.retour a {
+  text-decoration: none;
+  color: #000;
+}
+
+.retour a {
+  text-decoration: none;
+}
+
+.retour a:hover {
+  text-decoration: underline;
+}
+
+/* Mentions légales */

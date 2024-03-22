@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="icon" href="/img/icone-maxime_b.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/88a9536a0d.js"
+      crossorigin="anonymous"></script>
+
+    <title>Portfolio - Maxime BAUDE</title>
+  </head>
+
+  <body>
+    <div class="aside_left">
+      <div>
+        <div class="pdp">
+          <img src="./img/pdp-cv.jpg" alt="Photo de profil" />
+        </div>
+        <div class="title">
+          <h1>Maxime<br />Baude</h1>
+        </div>
+      </div>
+
+      <div class="menu">
+        <a class="js-scrollTo" href="#home">Accueil</a>
+        <a class="js-scrollTo" href="#about_me">&Agrave; propos de moi</a>
+        <a class="js-scrollTo" href="#skills">Mes comp&eacute;tences</a>
+        <a class="js-scrollTo" href="#cv">Mon CV</a>
+        <a class="js-scrollTo" href="#contact">Contactez-moi</a>
+      </div>
+    </div>
+
+    <div class="article_center">
+      <!-- PDP pour mobile -->
+      <div class="pdp_responsive">
+        <img src="./img/pdp-cv.jpg" alt="pdp Maxime BAUDE" id="img_pdp" />
+      </div>
+      <!--  -->
+
+      <!-- BTN Back to top -->
+      <div id="scrollUp" class="btn-back_to_top">
+        <a class="js-scrollTo" id="scrollColor" href="#home"
+          ><i class="fa-solid fa-circle-arrow-up"></i
+        ></a>
+      </div>
+      <div class="home" id="home">
+        <div class="text">
+          <h1>
+            <div class="block">
+              <span id="dev_web">&Eacute;tudiant</span><br />
+              <span id="dev_web">D&eacute;veloppeur <br />Web</span>
+            </div>
+            <span id="chartres">&Agrave; Chartres</span>
+          </h1>
+        </div>
+
+        <!-- BTN Go to About me -->
+        <div class="arrow-down">
+          <a class="js-scrollTo" href="#about_me">
+            <i class="fa-solid fa-circle-down fa-beat-fade"></i>
+          </a>
+        </div>
+        <!--  -->
+      </div>
+
+      <div class="about_me" id="about_me">
+        <div class="text">
+          <div class="center">
+            <h2>&Agrave; propos de moi :</h2>
+          </div>
+          <p id="justify">
+            Je m'appelle <span id="bold">Maxime Baude</span>, j'ai
+            <span id="bold">18 ans</span> et je suis &eacute;tudiant en
+            <span id="bold">d&eacute;veloppement web</span>.<br />Je suis
+            actuellement en <span id="bold">1&egrave;re ann&eacute;e </span>de
+            <span id="bold">BTS SIO SLAM</span> : Services Informatiques aux
+            Organisations, Solutions Logicielles et Applications M&eacute;tiers
+            au <span id="bold">Lyc&eacute;e Fulbert</span> &agrave;
+            <span id="bold">Chartres</span>.<br /><br />
+            Je suis <span id="bold">s&eacute;rieux, concentr&eacute;</span> et
+            <span id="bold">organis&eacute;</span> dans mon travail. Je suis un
+            &eacute;tudiant <span id="bold">motiv&eacute;</span> dans
+            l'apprentissage du d&eacute;veloppement web. Je suis
+            <span id="bold">rigoureux</span> et je sais me montrer
+            <span id="bold">respectueux</span> et
+            <span id="bold">digne de confiance</span> dans la r&eacute;alisation
+            de mes missions. <span id="bold">Autonome</span> et
+            <span id="bold">optimiste</span> sont mes qualit&eacute;s
+            principales.
+          </p>
+        </div>
+
+        <div class="details">
+          <div class="center">
+            <h2>D&eacute;tails :</h2>
+          </div>
+          <p class="first-p">
+            Nom : <span id="value_details" id="d-name">BAUDE Maxime</span>
+          </p>
+          <hr />
+          <p>Âge : <span id="value_details">18 ans</span></p>
+          <hr />
+          <p>
+            Secteur :
+            <span id="value_details">Chartres, Centre Val-de-Loir, France</span>
+          </p>
+          <hr />
+          <p>
+            Adresse mail :
+            <span id="value_details">contact.mbaude@gmail.com</span>
+          </p>
+          <hr />
+        </div>
+      </div>
+
+      <div class="skills" id="skills">
+        <div class="center">
+          <h2>Mes comp&eacute;tences :</h2>
+        </div>
+
+        <div class="grid-skills">
+          <div>
+            <p>HTML5</p>
+            <i class="fa-brands fa-html5"></i>
+            <div class="stars" id="html">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+          <div>
+            <p>CSS3</p>
+            <i class="fa-brands fa-css3-alt"></i>
+            <div class="stars" id="css">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+          <div>
+            <p>JavaScript</p>
+            <i class="fa-brands fa-square-js"></i>
+            <div class="stars" id="js">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke" class="fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+          <div class="bootstrap">
+            <p>Bootstrap</p>
+            <i class="fa-brands fa-bootstrap"></i>
+            <div class="stars" id="bootstrap">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+          <div class="php">
+            <p>Php</p>
+            <img src="./img/PHP-Logo.webp" alt="" />
+            <div class="stars" id="php">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+          <div class="Csharp">
+            <p>C#</p>
+            <img src="./img/logo_Csharp.png" alt="" />
+            <div class="stars" id="Csharp">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+          <div class="sql">
+            <p>Base de donn&eacute;es</p>
+            <img src="./img/logo_sql.png" alt="" />
+            <div class="stars" id="sql">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+
+          <div class="python">
+            <p>Python</p>
+            <img src="./img/logo_python.png" alt="" />
+            <div class="stars" id="sql">
+              <i class="fa-solid fa-star stars-blue"></i>
+              <i class="fa-solid fa-star stars-blue"></i>
+              <i class="fa-solid fa-star-half-stroke stars-yellow"></i>
+              <i class="fa-regular fa-star stars-yellow"></i>
+              <i class="fa-regular fa-star stars-yellow"></i>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <a class="js-scrollTo" href="#link-download" id="link-more_infos">
+            <p>
+              Plus d'informations sur mon cv t&eacute;l&eacute;chargable
+              ci-dessous
+            </p>
+            <i class="fa-solid fa-turn-down"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="cv" id="cv">
+        <div class="center">
+          <h2>Mon CV :</h2>
+        </div>
+        <div class="parcours">
+          <h3>Mon parcours scolaires :</h3>
+          <span></span>
+          <div id="lycee">
+            <p id="stage">
+              BTS SIO SLAM <br />
+              Lyc&eacute;e Fulbert, Chartres
+            </p>
+            <div class="date">
+              2023 <i class="fa-solid fa-arrow-right-long"></i> 2025
+            </div>
+            <p id="-grd">
+              D&eacute;veloppement de site internet et application web,
+              cr&eacute;ation de base de donn&eacute;es. <br />
+              Apprentissage des langages Front-End comme
+              <span id="bac">HTML5</span>, <span id="bac">CSS3</span> et
+              <span id="bac">Javascript</span> ; de même en Back-End tel que
+              <span id="bac">Php</span>, <span id="bac">SQL</span> et
+              <span id="bac">Python</span>
+            </p>
+
+            <div class="en_cours">En cours</div>
+          </div>
+
+          <div id="lycee">
+            <p id="stage">
+              Bac Pro Syst&egrave;mes num&eacute;riques<br />Lyc&eacute;e des
+              M&eacute;tiers Sully, Nogent-le-Rotrou
+            </p>
+            <div class="date">
+              2020 <i class="fa-solid fa-arrow-right-long"></i> 2023
+            </div>
+            <p id="-grd">
+              Configuration, installation et test d'&eacute;quipements
+              r&eacute;seaux tels que des switchs, des routeurs ou des serveurs
+              ADDS DNS, Ipfire, GPO, VLAN...
+            </p>
+            <p id="-grd">
+              Diplôme Du Baccalaur&eacute;at Professionnel obtenu avec
+              <span id="bac">mention Tr&egrave;s Bien</span>
+            </p>
+          </div>
+
+          <h3 id="p-pro">Mon parcours professionnel :</h3>
+          <span></span>
+          <div id="lycee">
+            <p id="stage">
+              Stage de 4 semaines<br />Lemon Cr&eacute;ation, Chartres
+            </p>
+            <div class="date">
+              F&eacute;vrier <i class="fa-solid fa-arrow-right-long"></i> Mars
+              2023
+            </div>
+            <p id="-grd">
+              Lemon Cr&eacute;ation est une agence de communication qui
+              accompagne les entreprises dans leur d&eacute;veloppement en
+              commencant par la cr&eacute;ation d'un logo, d'une charte
+              graphique jusqu'&agrave; l'insertion sur le march&eacute; grâce
+              &agrave; un site internet. Il s'occupe &eacute;galement du
+              r&eacute;f&eacute;rencement.<br />
+              Mon rôle &eacute;tait de r&eacute;aliser la fabrication de site
+              internet, de charte graphique et autre en utilisant du code.
+            </p>
+          </div>
+
+          <div id="lycee">
+            <p id="stage">
+              Stage de 4 semaines<br />Mister Flat Informatique, Jouy
+            </p>
+            <div class="date">
+              Septembre <i class="fa-solid fa-arrow-right-long"></i> Octobre
+              2022
+            </div>
+            <p id="-grd">
+              Mister Flat Informatique est une entreprise de maintenance,
+              t&eacute;l&eacute;maintenance et boutique informatique. Mon rôle
+              &eacute;tait d'accueillir les clients, les aid&eacute;s s'ils
+              avaient un probl&egrave;me avec du mat&eacute;riel informatique.
+              Je partais souvent avec le technicien informatique pour aller chez
+              des clients et r&eacute;alis&eacute; des interventions.
+            </p>
+          </div>
+
+          <div id="lycee">
+            <div id="flex"></div>
+
+            <p id="stage">
+              2 Stages de 4 semaines<br />Balistik Informatique, Barjouville
+            </p>
+
+            <div class="date" id="mb">
+              <p>Mai <i class="fa-solid fa-arrow-right-long"></i> Juin 2022</p>
+            </div>
+
+            <div class="date">
+              <p>
+                Novembre
+                <i class="fa-solid fa-arrow-right-long"></i> D&eacute;cembre
+                2022
+              </p>
+            </div>
+
+            <p id="-grd">
+              Balistik Informatique est une entreprise de maintenance,
+              t&eacute;l&eacute;maintenance et boutique informatique. Mon rôle
+              &eacute;tait d'effectuer les interventions sur les
+              &eacute;quipements informatiques des clients, lorsqu'ils venaient
+              les d&eacute;pos&eacute;s &agrave; la boutique.
+            </p>
+          </div>
+
+          <div id="lycee">
+            <p id="stage">Stage de 6 semaines<br />Spider Informatique</p>
+            <div class="date">
+              Mai <i class="fa-solid fa-arrow-right-long"></i> Juillet 2021
+            </div>
+            <p id="-grd">
+              Spider Informatique est une entreprise de d&eacute;pannage, de
+              maintenance et t&eacute;l&eacute;maintenance, de vente et de
+              s&eacute;curit&eacute; informatique. Tous leurs clients sont des
+              professionnels. Mon rôle &eacute;tait d'aider le technicien
+              informatique dans ses missions, nous allions souvent dans les
+              entreprises des clients pour r&eacute;aliser les interventions.
+            </p>
+          </div>
+        </div>
+
+        <span id="link-download"></span>
+
+        <div class="downld-cv" id="downld-cv">
+          <div class="center">
+            <h2 id="telecharger_cv">T&eacute;l&eacute;charger mon CV :</h2>
+          </div>
+          <p id="center">
+            Vous pouvez t&eacute;l&eacute;charger mon CV en cliquant sur le
+            bouton ci-dessous.
+          </p>
+
+          <div class="mon-cv">
+            <a href="./CV/CV_Maxime_Baude.pdf" download id="download">
+              <span>CV Maxime BAUDE <i class="fa-solid fa-download"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact" id="contact">
+        <div class="center">
+          <h2 id="h2-contact">Informations Utiles :</h2>
+        </div>
+
+        <footer>
+          <div class="contact-info">
+            <h4>Contactez-moi :</h4>
+            <ul>
+              <li>
+                <i class="fa-solid fa-envelope"></i> Email :
+                <span
+                  ><a href="mailto:contact.mbaude@gmail.com"
+                    >contact.mbaude@gmail.com</a
+                  ></span
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i> T&eacute;l&eacute;phone :
+                <span><a href="tel:+3362171177">07 62 17 11 77</a></span>
+              </li>
+              <li>
+                <i class="fa-solid fa-share-nodes"></i> Suivez-moi sur :
+                <a
+                  href="https://www.linkedin.com/in/maxime-baude-2211b925b/"
+                  target="_blank"
+                  ><span>Linkedin </span
+                  ><i
+                    class="fa-brands fa-linkedin fa-lg"
+                    style="color: #ffffff"></i></a
+                >,
+                <a href="https://github.com/MaximeCode" target="_blank"
+                  ><span>GitHub </span
+                  ><i
+                    class="fa-brands fa-square-github fa-lg"
+                    style="color: #ffffff"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <nav class="menu_footer">
+            <h4>Navigation :</h4>
+            <ul>
+              <li><a class="js-scrollTo" href="#home">Accueil</a></li>
+              <li>
+                <a class="js-scrollTo" href="#about_me"
+                  >&Agrave; propos de moi</a
+                >
+              </li>
+              <li>
+                <a class="js-scrollTo" href="#skills">Mes comp&eacute;tences</a>
+              </li>
+              <li><a class="js-scrollTo" href="#cv">Mon CV</a></li>
+              <li><a class="js-scrollTo" href="#contact">Contactez-moi</a></li>
+            </ul>
+          </nav>
+
+          <div class="docs-legals">
+            <h4>Informations l&eacute;gales :</h4>
+            <ul>
+              <li><a href="./RGPD/cookies.html">Cookies</a></li>
+              <li>
+                <a href="./RGPD/pol_de_conf.html"
+                  >Politique de confidentialit&eacute;</a
+                >
+              </li>
+              <li>
+                <a href="./RGPD/mentions_legales.html"
+                  >Mentions l&eacute;gales</a
+                >
+              </li>
+            </ul>
+          </div>
+        </footer>
+
+        <div class="copyright">
+          <p>&copy; 2023 BAUDE Maxime. Tous droits r&eacute;serv&eacute;s.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Burger menu in responsive -->
+
+    <nav class="navbar dark-mode" role="navigation">
+      <div>
+        <div class="navbar__logo">Maxime Baude</div>
+      </div>
+      <div class="menu navbar__links">
+        <a class="js-scrollTo navbar__link first" href="#home">Accueil</a>
+        <a class="js-scrollTo navbar__link second" href="#about_me"
+          >&Agrave; propos de moi</a
+        >
+        <a class="js-scrollTo navbar__link third" href="#skills"
+          >Mes comp&eacute;tences</a
+        >
+        <a class="js-scrollTo navbar__link four" href="#cv">Mon CV</a>
+
+        <a class="js-scrollTo navbar__link six" href="#contact"
+          >Contactez-moi</a
+        >
+      </div>
+      <button class="burger">
+        <span class="bar"></span>
+      </button>
+    </nav>
+
+    <script type="text/javascript" src="./javascript.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".js-scrollTo").on("click", function () {
+          // Au clic sur un élément
+          let page = $(this).attr("href") // Page cible
+          let speed = 650 // Durée de l'animation (en ms)
+          $("html, body").animate({ scrollTop: $(page).offset().top }, speed) // Go
+          return false
+        })
+      })
+
+      jQuery(function () {
+        $(function () {
+          $(window).scroll(function () {
+            //Fonction appelée quand on descend la page
+            if ($(this).scrollTop() > 200) {
+              // Quand on est à 200 pixels du haut de page,
+              $("#scrollUp").css("right", "-2%") // Replace à 20 pixels de la droite l'image
+            } else {
+              $("#scrollUp").removeAttr("style") // Enlève les attributs CSS affectés par javascript
+            }
+          })
+        })
+      })
+    </script>
+
+    <!-- <div id="remerciement">
+        <p>
+          J'aimerai remercier l'entreprise
+          Lemon Création de m'avoir aidé, dans la partie
+          design comme dans la partie développement, dans la création de mon
+          portfolio.
+        </p>
+      </div> -->
+
+    <!-- <a
+      target="_blank"
+      href="https://icons8.com/icon/0OQR1FYCuA9f/visual-studio-code-2019"
+      >Visual Studio Code 2019</a
+    >
+    icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+  </body>
+</html>

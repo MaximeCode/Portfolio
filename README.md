@@ -6,4 +6,4 @@ Ce site est totalement personnel, il a comme but d'enrichir mes compétences dan
 
 Fonctionnant avec HTML5, CSS3, JavaScript.
 
-Pour voir mon portfolio sur votre navigateur, vous avez juste à télécharger ce repository et le lancer grâce au fichier "index.html".
+Celui-ci est hébergé grâce au service GitHub Pages sur le lien suivant : https://maximecode.github.io/Portfolio/

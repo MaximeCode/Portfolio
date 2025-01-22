@@ -1,5 +1,5 @@
 
-# Hi, I'm Maxime and this website is my portfolio ! 👋
+# Bonjour, je suis Maxime et ceci est mon portfolio ! 👋
 
 
 Ce site est totalement personnel, il a comme but d'enrichir mes compétences dans le développement web, mais surtout de partager mes connaissances aux entreprises.

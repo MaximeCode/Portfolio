@@ -367,7 +367,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100dvh;
   color: #fff;
   background-image: url(../img/iStock-698430010.jpg);
   background-size: cover;
@@ -453,6 +453,7 @@ h3 {
 
 .about_me {
   display: grid;
+  place-items: center;
   grid-template-columns: 1fr 30%;
   gap: 3%;
   font-family: "Roboto Slab", serif;
@@ -648,6 +649,25 @@ h3 {
 
 #excel {
   color: #0f783e;
+}
+
+.wp i  {
+  color: #0078d7;
+}
+
+#tailwind,
+#tailwind-svg {
+  fill: #06b6d4;
+  color: #06b6d4;
+}
+
+#react,
+.react i {
+  color: #61dafb;
+}
+
+.next svg {
+  width: 20%;
 }
 
 #link-more_infos .fa-solid {
@@ -997,18 +1017,18 @@ footer h4 {
 }
 
 @media (max-width: 850px) {
-  
+
   /* Aside Off */
-  
+
   body {
     display: grid;
     grid-template-columns: 1fr;
   }
-  
+
   .aside_left {
     display: none;
   }
-  
+
   .php_responsive {
     display: flex;
   }
